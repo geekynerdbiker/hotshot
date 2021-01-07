@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+52c7dcc1f6b40555d06e2ea30d42bb0e CMakeFiles/clean_test_results
+3084f7bca75cda1c7a16d8b87d0680e7 CMakeFiles/hotshot_2_generate_messages_eus
+b8b23035364faec6e0ebc6858e216b05 devel/share/roseus/ros/hotshot_2/manifest.l
