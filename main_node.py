@@ -1,3 +1,5 @@
+# main_node.py from github.com/GeekKKOKKO
+
 #!/usr/bin/env python
 
 import rospy
@@ -72,7 +74,7 @@ def LaserCallback(scan_msg):
         d_x = scanData * math.cos(scanRad)
         d_y = scanData * math.sin(scanRad)
 
-        # --- Float infinity to integer ---
+        # --- Float infinity to integer  with rplidar ---
         if d_x == float('inf'):
             d_x = scan_msg.range_max
         if d_y == float('inf'):
